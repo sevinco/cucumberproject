@@ -16,10 +16,8 @@ import org.junit.runner.RunWith;
 //     },
         features = "./src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@create_account_with_existing_user",
-        dryRun = false
-
-
+        tags = "@Contactus_form",
+        dryRun = true
 )
 
 public class Runner {
